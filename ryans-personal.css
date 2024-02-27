@@ -7,8 +7,33 @@ p {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: solid lightgray;
+}
+
+.head-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 .socials {
   width: 30px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.header-button {
+  font-size: 20px;
+  border-color: white;
+  border-style: solid;
+  padding-left: 25px;
+  padding-right: 25px;
+  cursor: pointer;
+  background-color: white;
+  font-family: Roboto;
+}
+
+.header-socials {
+  align-items: center;
+  margin-right: 20px;
 }
