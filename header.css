@@ -1,9 +1,6 @@
-p {
-  font-family: Roboto;
-}
-
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 800px 200px;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
@@ -12,7 +9,7 @@ p {
 
 .head-name {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 20px;
 }
 
@@ -26,11 +23,23 @@ p {
   font-size: 20px;
   border-color: white;
   border-style: solid;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
   cursor: pointer;
   background-color: white;
   font-family: Roboto;
+}
+
+.header-button:hover {
+  opacity: 0.5;
+}
+
+.header-button:active {
+  opacity: 0.3;
+}
+
+.header-tabs {
+  text-align: center;
 }
 
 .header-socials {

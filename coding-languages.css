@@ -1,0 +1,45 @@
+.coding-languages-grid {
+  display: grid;
+  grid-template-rows: 50px 150px;
+}
+
+.coding-languages-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.coding-languages {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  justify-content: center;
+  text-align: center;
+  font-family: Roboto;
+  column-gap: 35px;
+  margin-top: 20px;
+}
+
+.java-logo {
+  width: 100%;
+}
+
+.c-logo {
+  width: 100px;
+}
+
+.typescript-logo {
+  width: 115px;
+}
+
+.html-logo {
+  width: 120px;
+}
+
+.css-logo {
+  width: 87px;
+}
+
+.systemverilog-logo {
+  width: 100%;
+  margin-top: 40px;
+}
