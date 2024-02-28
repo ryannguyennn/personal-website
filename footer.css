@@ -1,0 +1,54 @@
+.footer {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(245, 245, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 300px 250px;
+}
+
+.email {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  padding-right: 45px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.phone-number {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  padding-left: 45px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.email-icon {
+  width: 20px;
+}
+
+.phone-icon {
+  width: 20px;
+}
+
+.email-name {
+  display: inline-block;
+}
+
+.phone {
+  display: inline-block;
+}

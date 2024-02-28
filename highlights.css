@@ -1,15 +1,15 @@
 .highlights-grid {
   display: grid;
   grid-template-columns: 500px 500px;
-  justify-content: center;
+  background-color: rgb(245, 245, 255);
+  column-gap: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
-  column-gap: 50px;
-  background-color: rgb(245, 245, 255);
+  justify-content:space-evenly;
 }
 
-.highlights-left {
-  justify-content: center;
+.image-ryan {
+  margin-right: 150px;
 }
 
 .self-picture {
@@ -19,4 +19,5 @@
 .intro-text {
   font-size: 20px;
   font-weight: 300;
+  margin-left: 150px;
 }
