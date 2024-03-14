@@ -7,11 +7,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="highlights.css">
-    <link rel="stylesheet" href="coding-languages.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="homepage-css-files/general.css">
+    <link rel="stylesheet" href="homepage-css-files/header.css">
+    <link rel="stylesheet" href="homepage-css-files/highlights.css">
+    <link rel="stylesheet" href="homepage-css-files/coding-languages.css">
+    <link rel="stylesheet" href="homepage-css-files/footer.css">
   </head>
   <body>
     <div class="header">
@@ -25,16 +25,16 @@
         <button class="header-button">Resume</button>
       </div>
       <div class="header-socials">
-        <a href="https://www.facebook.com/profile.php?id=100030971839343">
+        <a class="social-link" target="_blank" href="https://www.facebook.com/profile.php?id=100030971839343">
           <img class="socials" src="icons/Vector-2-128.webp">
         </a>
-        <a href="https://www.instagram.com/ryanngvyenn/">
+        <a class="social-link" target="_blank" href="https://www.instagram.com/ryanngvyenn/">
           <img class="socials" src="icons/38-instagram-2-128.webp">
         </a>
-        <a href="https://github.com/ryannguyennn">
+        <a class="social-link" target="_blank" href="https://github.com/ryannguyennn">
           <img class="socials" src="icons/icon-social-github-128.webp">
         </a>
-        <a href="https://linkedin.com/in/ryan-nguyen-780b96214">
+        <a class="social-link" target="_blank" href="https://linkedin.com/in/ryan-nguyen-780b96214">
           <img class="socials" src="icons/11-linkedin-128.webp">
         </a>
       </div>
@@ -53,7 +53,7 @@
           efficiency, as well as the wellbeing of others in society.
         </p>
         <p>
-          This personal website was built from scratch using
+          This personal website was built by myself from scratch using
           HTML and CSS. Click on the tabs above to learn more about me!
         </p>
       </div>
@@ -62,29 +62,27 @@
       </div>
     </div>
 
-    <div class="coding-languages-grid">
-      <div class="coding-languages-title">
-        <p>Technical Skills</p>
+    <div class="coding-languages-title">
+      <p>Technical Skills</p>
+    </div>
+    <div class="coding-languages">
+      <div class="java">
+        <img class="java-logo" src="languages/Java-Logo.png">
       </div>
-      <div class="coding-languages">
-        <div class="java">
-          <img class="java-logo" src="languages/Java-Logo.png">
-        </div>
-        <div class="c">
-          <img class="c-logo" src="languages/695px-C_Programming_Language.svg.png">
-        </div>
-        <div class="typescript">
-          <img class="typescript-logo" src="languages/Typescript_logo_2020.svg.png">
-        </div>
-        <div class="html">
-          <img class="html-logo" src="languages/html.png">
-        </div>
-        <div class="css">
-          <img class="css-logo" src="languages/css.png">
-        </div>
-        <div class="systemverilog">
-          <img class="systemverilog-logo" src="languages/SystemVerilog_logo.png">
-        </div>
+      <div class="c">
+        <img class="c-logo" src="languages/695px-C_Programming_Language.svg.png">
+      </div>
+      <div class="typescript">
+        <img class="typescript-logo" src="languages/Typescript_logo_2020.svg.png">
+      </div>
+      <div class="html">
+        <img class="html-logo" src="languages/html.png">
+      </div>
+      <div class="css">
+        <img class="css-logo" src="languages/css.png">
+      </div>
+      <div class="systemverilog">
+        <img class="systemverilog-logo" src="languages/SystemVerilog_logo.png">
       </div>
     </div>
 
@@ -94,7 +92,7 @@
       </div>
       <div class="contact-info">
         <div class="email">
-          <img class="email-icon" src="icons/email.webp">
+          <a href="mailto:nguyenr2003@gmail.com"><img class="email-icon" src="icons/email.webp"></a>
             <p class="email-name">nguyenr2003@gmail.com</p>
         </div>
         <div class="phone-number">

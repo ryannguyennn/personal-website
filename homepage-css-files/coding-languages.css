@@ -1,7 +1,4 @@
-.coding-languages-grid {
-  display: grid;
-  grid-template-rows: 50px 150px;
-}
+
 
 .coding-languages-title {
   text-align: center;
@@ -10,13 +7,17 @@
 }
 
 .coding-languages {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: 150px 150px 150px 150px 150px 150px;
   justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: Roboto;
   column-gap: 35px;
   margin-top: 20px;
+  place-content: center;
+  margin-bottom: 20px;
 }
 
 .java-logo {

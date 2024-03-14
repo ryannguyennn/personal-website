@@ -15,14 +15,13 @@
 }
 
 .contact-info {
-  display: grid;
-  grid-template-columns: 300px 250px;
+  display: flex;
 }
 
 .email {
   display: grid;
   grid-template-columns: 20px 1fr;
-  padding-right: 45px;
+  padding-right: 40px;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -31,7 +30,7 @@
 .phone-number {
   display: grid;
   grid-template-columns: 20px 1fr;
-  padding-left: 45px;
+  padding-left: 40px;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -39,10 +38,12 @@
 
 .email-icon {
   width: 20px;
+  padding-right: 25px;
 }
 
 .phone-icon {
   width: 20px;
+  padding-right: 25px;
 }
 
 .email-name {
